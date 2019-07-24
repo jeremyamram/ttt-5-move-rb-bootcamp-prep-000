@@ -8,4 +8,4 @@ puts "Where would you like to go?"
 input=gets.strip
 
 def input_to_index(index)
-index
+index.to_i
